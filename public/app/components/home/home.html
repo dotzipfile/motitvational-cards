@@ -1,5 +1,19 @@
 <h1>{{ title }}</h1>
-Input a card title: <input ng-model="cardTitle">
-Input your motivational message: <input ng-model="cardMessage">
-Your title is: {{ cardTitle }}
-Your message is: {{ cardMessage }}
+
+<div>
+  <h3>Input your motivational details below</h3>
+  <div>
+    <div>
+      <h4>Title</h4>
+      <input ng-model="cardTitle">
+    </div>
+    <div>
+      <h4>Message</h4>
+      <textarea rows="4" cols="20" ng-model="cardMessage"></textarea>
+    </div>  
+  </div>
+</div>
+<div class="mot-card">
+  <h2>{{ cardTitle }}</h2>
+  <h3>{{ cardMessage }}</h3>
+</div>
