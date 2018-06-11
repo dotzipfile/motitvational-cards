@@ -1,0 +1,22 @@
+{
+  "name": "motivational-cards",
+  "version": "0.0.1",
+  "description": "A web app that allows the user to generate a motivational card and link it to someone",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotzipfile/motivational-cards.git"
+  },
+  "author": "dotzipfile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dotzipfile/motivational-cards/issues"
+  },
+  "homepage": "https://github.com/dotzipfile/motivational-cards#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
